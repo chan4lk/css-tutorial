@@ -103,11 +103,13 @@ body {
 
 #plans {
   padding: 8px 8px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 #plans .section-title {
   color: #2ddf5c;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: inherit;
   text-align: center;
 }
 
