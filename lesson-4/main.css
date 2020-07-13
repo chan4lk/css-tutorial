@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  margin-bottom: 16px;
+  background: #fa923f;
+  padding: 8px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+}
+
+a:not(.active) {
+  color: blue;
+}
+
+a.active {
+  color: #521751;
+}
+
+.main-section {
+  border: black solid 2px;
+  height: 800px;
+  padding: 16px;
+}
+
+.hightlighted {
+  border: #fa923f solid 2px;
+}
