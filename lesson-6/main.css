@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #b3b3b3;
+  padding: 16px;
+  border: 4px solid white;
+  margin: 16px;
+  height: 2000px;
+}
+
+body {
+  background: #fa923f;
+  padding: 20px;
+  border: 4px solid black;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.parent {
+  background: #eee;
+  padding: 16px;
+  border: 4px solid black;
+}
+
+.parent div {
+  background: rgb(105, 105, 109);
+  color: white;
+  border: 4px solid black;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.child-1 {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
